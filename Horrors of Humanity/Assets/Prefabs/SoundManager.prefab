@@ -1,0 +1,537 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8755952096414056214
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8755952096414056216}
+  - component: {fileID: 8755952096414056217}
+  m_Layer: 0
+  m_Name: MusicSource
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8755952096414056216
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8755952096414056214}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8755952096763563494}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &8755952096414056217
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8755952096414056214}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 33df66491720f974a8107e2a69e49e6f, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!1 &8755952096763563492
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8755952096763563494}
+  - component: {fileID: 8755952096763563495}
+  m_Layer: 0
+  m_Name: SoundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8755952096763563494
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8755952096763563492}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8755952096414056216}
+  - {fileID: 8755952094828572378}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8755952096763563495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8755952096763563492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af1d50af33b2ebf4485fc453ae11025f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  musicSource: {fileID: 8755952096414056217}
+  effectsSource: {fileID: 8755952094828572379}
+--- !u!1001 &991434433001326722
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8755952096763563494}
+    m_Modifications:
+    - target: {fileID: 8377025534726153816, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8377025534726153816, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8377025534726153816, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8377025534726153816, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8377025534726153816, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8377025534726153816, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8377025534726153816, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8377025534726153816, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8377025534726153816, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8377025534726153816, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8377025534726153816, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8377025534726153818, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: m_Name
+      value: EffectsSource
+      objectReference: {fileID: 0}
+    - target: {fileID: 8377025534726153823, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: drawingEffects.Array.size
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 8377025534726153823, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: drawingEffects.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: ab267ed571a6aa94b8db2affe1c361e8, type: 3}
+    - target: {fileID: 8377025534726153823, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: drawingEffects.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 7df5ce2c200a6644895db1a8508635e8, type: 3}
+    - target: {fileID: 8377025534726153823, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: drawingEffects.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 0e0ba672c921ebe40995241d458d9b83, type: 3}
+    - target: {fileID: 8377025534726153823, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: drawingEffects.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: a8c2ab45264e6244d86e0997dba4c312, type: 3}
+    - target: {fileID: 8377025534726153823, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: drawingEffects.Array.data[4]
+      value: 
+      objectReference: {fileID: 8300000, guid: 2e10c8bd37b0ea843bb8ba19c062c5cf, type: 3}
+    - target: {fileID: 8377025534726153823, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: drawingEffects.Array.data[5]
+      value: 
+      objectReference: {fileID: 8300000, guid: e3e7cc7647062cf4398251f372aa8327, type: 3}
+    - target: {fileID: 8377025534726153823, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: drawingEffects.Array.data[6]
+      value: 
+      objectReference: {fileID: 8300000, guid: d3d2913db725a6048b9bcf5c541dba82, type: 3}
+    - target: {fileID: 8377025534726153823, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: drawingEffects.Array.data[7]
+      value: 
+      objectReference: {fileID: 8300000, guid: 9165dba351281c649923b0ebfced69c1, type: 3}
+    - target: {fileID: 8377025534726153823, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: drawingEffects.Array.data[8]
+      value: 
+      objectReference: {fileID: 8300000, guid: 46b260359bd35fb4ab24ac6966eb7676, type: 3}
+    - target: {fileID: 8377025534726153823, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: drawingEffects.Array.data[9]
+      value: 
+      objectReference: {fileID: 8300000, guid: a2b575af93b0d294986a823ca9f22b04, type: 3}
+    - target: {fileID: 8377025534726153823, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: drawingEffects.Array.data[10]
+      value: 
+      objectReference: {fileID: 8300000, guid: 00bc7cfcb45b55245844c6168e9fa4b5, type: 3}
+    - target: {fileID: 8377025534726153823, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: pageTurningEffects.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8377025534726153823, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: walkingLoudEffects.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8377025534726153823, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: walkingQuietEffects.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8377025534726153823, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: lightswitchOnEffects.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8377025534726153823, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: paperRustlingEffects.Array.size
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 8377025534726153823, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: fabricRustlingEffects.Array.size
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8377025534726153823, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: lightswitchOffEffects.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8377025534726153823, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: pageTurningEffects.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: b90aeeb0d108fa543b5725f2db079b3b, type: 3}
+    - target: {fileID: 8377025534726153823, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: pageTurningEffects.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 05a13f74f27ac0f499a597583d22b25e, type: 3}
+    - target: {fileID: 8377025534726153823, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: pageTurningEffects.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 8b6ac0b94ea9c174ab97bdaf4f67b687, type: 3}
+    - target: {fileID: 8377025534726153823, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: walkingLoudEffects.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: ffbbac8534923184a8724579ed093ed3, type: 3}
+    - target: {fileID: 8377025534726153823, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: walkingLoudEffects.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: d5a373ff4085b1f4dbe2e5b3bed959c9, type: 3}
+    - target: {fileID: 8377025534726153823, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: walkingLoudEffects.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 33d14b6f197738b428709c1984be96cd, type: 3}
+    - target: {fileID: 8377025534726153823, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: walkingLoudEffects.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: d84f636bf2cf6cb41a81d4824234a11a, type: 3}
+    - target: {fileID: 8377025534726153823, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: walkingLoudEffects.Array.data[4]
+      value: 
+      objectReference: {fileID: 8300000, guid: ffbbac8534923184a8724579ed093ed3, type: 3}
+    - target: {fileID: 8377025534726153823, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: walkingQuietEffects.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: f40b52bbd6a49b8459dd5ba23b139933, type: 3}
+    - target: {fileID: 8377025534726153823, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: walkingQuietEffects.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: e59a8f4b6f73b3746bc84d54f61d8c03, type: 3}
+    - target: {fileID: 8377025534726153823, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: walkingQuietEffects.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: dd3533de091e362459783ec76e708a8f, type: 3}
+    - target: {fileID: 8377025534726153823, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: walkingQuietEffects.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 7ea1fdc2d53d90c42a3ef3b3433927a6, type: 3}
+    - target: {fileID: 8377025534726153823, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: walkingQuietEffects.Array.data[4]
+      value: 
+      objectReference: {fileID: 8300000, guid: 6c9d858c24977fb43af5e08a7716bd84, type: 3}
+    - target: {fileID: 8377025534726153823, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: walkingQuietEffects.Array.data[5]
+      value: 
+      objectReference: {fileID: 8300000, guid: 03a88eba173998f45962e0582526388c, type: 3}
+    - target: {fileID: 8377025534726153823, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: walkingQuietEffects.Array.data[6]
+      value: 
+      objectReference: {fileID: 8300000, guid: 9e9cc950719bb9f4abcd645f672b6d6d, type: 3}
+    - target: {fileID: 8377025534726153823, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: lightswitchOnEffects.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: e07de8bd4b57bb64cbb84864ab52dd3c, type: 3}
+    - target: {fileID: 8377025534726153823, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: lightswitchOnEffects.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 67643b2454da162498713b27ee7fef89, type: 3}
+    - target: {fileID: 8377025534726153823, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: lightswitchOnEffects.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 5a63ff0e39c9d4841b5b23ba7366402e, type: 3}
+    - target: {fileID: 8377025534726153823, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: lightswitchOnEffects.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: f9f6169a18c9c34479124d0e4aac3e33, type: 3}
+    - target: {fileID: 8377025534726153823, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: lightswitchOnEffects.Array.data[4]
+      value: 
+      objectReference: {fileID: 8300000, guid: cd5d95c9f3b53bf468ad6267a183f11a, type: 3}
+    - target: {fileID: 8377025534726153823, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: lightswitchOnEffects.Array.data[5]
+      value: 
+      objectReference: {fileID: 8300000, guid: eda086ee4537a87408cb999a129b64fe, type: 3}
+    - target: {fileID: 8377025534726153823, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: paperRustlingEffects.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: a00d2ca3e3fec1842b3883ac803bafb2, type: 3}
+    - target: {fileID: 8377025534726153823, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: paperRustlingEffects.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 283b58960360a5242b8acf7e11a64526, type: 3}
+    - target: {fileID: 8377025534726153823, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: paperRustlingEffects.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 68d4f88a9204a3e4faa699b331e48d6e, type: 3}
+    - target: {fileID: 8377025534726153823, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: paperRustlingEffects.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: f2ad3d1d8ed81de4e895368298dc9471, type: 3}
+    - target: {fileID: 8377025534726153823, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: paperRustlingEffects.Array.data[4]
+      value: 
+      objectReference: {fileID: 8300000, guid: 218b9eb90926c1749b5a20dacdcb64d3, type: 3}
+    - target: {fileID: 8377025534726153823, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: paperRustlingEffects.Array.data[5]
+      value: 
+      objectReference: {fileID: 8300000, guid: 30fa555ca5381ec4ba0f46bf0ee6863a, type: 3}
+    - target: {fileID: 8377025534726153823, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: paperRustlingEffects.Array.data[6]
+      value: 
+      objectReference: {fileID: 8300000, guid: e25e59cd18ee38347a2db327857c3bfe, type: 3}
+    - target: {fileID: 8377025534726153823, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: paperRustlingEffects.Array.data[7]
+      value: 
+      objectReference: {fileID: 8300000, guid: 3ab697e34b487b1499de39a44358abb5, type: 3}
+    - target: {fileID: 8377025534726153823, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: paperRustlingEffects.Array.data[8]
+      value: 
+      objectReference: {fileID: 8300000, guid: b606da67707134a4db4688320d2785ae, type: 3}
+    - target: {fileID: 8377025534726153823, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: paperRustlingEffects.Array.data[9]
+      value: 
+      objectReference: {fileID: 8300000, guid: a2e5b113adb1a55469ee3456781853bb, type: 3}
+    - target: {fileID: 8377025534726153823, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: fabricRustlingEffects.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: c8239cbf4a8b82f42a52d51792550403, type: 3}
+    - target: {fileID: 8377025534726153823, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: fabricRustlingEffects.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: f62f873ff7ca54f439af87a6a315a828, type: 3}
+    - target: {fileID: 8377025534726153823, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: fabricRustlingEffects.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: a03949987966f0444b4ebd01e23f335c, type: 3}
+    - target: {fileID: 8377025534726153823, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: fabricRustlingEffects.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 5d50e15e8dc9f154ca889c166f0c5ce8, type: 3}
+    - target: {fileID: 8377025534726153823, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: fabricRustlingEffects.Array.data[4]
+      value: 
+      objectReference: {fileID: 8300000, guid: e694cc56334302242bd0e0950e432c2c, type: 3}
+    - target: {fileID: 8377025534726153823, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: fabricRustlingEffects.Array.data[5]
+      value: 
+      objectReference: {fileID: 8300000, guid: 6f2e26e882ea3ed4c95d31c71b791b35, type: 3}
+    - target: {fileID: 8377025534726153823, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: fabricRustlingEffects.Array.data[6]
+      value: 
+      objectReference: {fileID: 8300000, guid: ea6fa446e87f4d446acedcc379229a0e, type: 3}
+    - target: {fileID: 8377025534726153823, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: fabricRustlingEffects.Array.data[7]
+      value: 
+      objectReference: {fileID: 8300000, guid: fb02cf73036002142bc29ee89244639b, type: 3}
+    - target: {fileID: 8377025534726153823, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: fabricRustlingEffects.Array.data[8]
+      value: 
+      objectReference: {fileID: 8300000, guid: ce0090e7990a3c243aa69262ad2c61b4, type: 3}
+    - target: {fileID: 8377025534726153823, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: fabricRustlingEffects.Array.data[9]
+      value: 
+      objectReference: {fileID: 8300000, guid: 8eca342a93a60744e8fa660a4660dd0a, type: 3}
+    - target: {fileID: 8377025534726153823, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: lightswitchOffEffects.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 58c9383d4f437a84583cc259b6709961, type: 3}
+    - target: {fileID: 8377025534726153823, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: lightswitchOffEffects.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: b88b389509a2826479c33423e23e8de0, type: 3}
+    - target: {fileID: 8377025534726153823, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: lightswitchOffEffects.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: b85cb3c50b59ba44d93bd32789736a73, type: 3}
+    - target: {fileID: 8377025534726153823, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: lightswitchOffEffects.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: c580b97bcb7a2ae45bca5f717e311f2f, type: 3}
+    - target: {fileID: 8377025534726153823, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: lightswitchOffEffects.Array.data[4]
+      value: 
+      objectReference: {fileID: 8300000, guid: 1cfa521a0cad00a45abb763a9e01fc59, type: 3}
+    - target: {fileID: 8377025534726153823, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: lightswitchOffEffects.Array.data[5]
+      value: 
+      objectReference: {fileID: 8300000, guid: ace7658386a393249a4b9918aff50421, type: 3}
+    - target: {fileID: 8377025534726153823, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: paperRustlingEffects.Array.data[10]
+      value: 
+      objectReference: {fileID: 8300000, guid: 5a40327406661e94395861aaaed4e32b, type: 3}
+    - target: {fileID: 8377025534726153823, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: paperRustlingEffects.Array.data[11]
+      value: 
+      objectReference: {fileID: 8300000, guid: 6ea072d8b131afb42900a1e4bc33695b, type: 3}
+    - target: {fileID: 8377025534726153823, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: fabricRustlingEffects.Array.data[10]
+      value: 
+      objectReference: {fileID: 8300000, guid: e8f5f23653534504dad583c39beff3a5, type: 3}
+    - target: {fileID: 8377025534726153823, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: fabricRustlingEffects.Array.data[11]
+      value: 
+      objectReference: {fileID: 8300000, guid: 587fd4651dbb1e2498fd6532b5c284d3, type: 3}
+    - target: {fileID: 8377025534726153823, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: fabricRustlingEffects.Array.data[12]
+      value: 
+      objectReference: {fileID: 8300000, guid: 590e03ef118f885438b30daf68d99d3c, type: 3}
+    - target: {fileID: 8377025534726153823, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: fabricRustlingEffects.Array.data[13]
+      value: 
+      objectReference: {fileID: 8300000, guid: 601eab8de6e7f2d4bb71a0ec36cfb83a, type: 3}
+    - target: {fileID: 8377025534726153823, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+      propertyPath: fabricRustlingEffects.Array.data[14]
+      value: 
+      objectReference: {fileID: 8300000, guid: 1995d09c23def064e8a28986f3c48a9c, type: 3}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+--- !u!4 &8755952094828572378 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8377025534726153816, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+  m_PrefabInstance: {fileID: 991434433001326722}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &8755952094828572379 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 8377025534726153817, guid: 009fac3c69b962540a0cd1856f8618d4, type: 3}
+  m_PrefabInstance: {fileID: 991434433001326722}
+  m_PrefabAsset: {fileID: 0}

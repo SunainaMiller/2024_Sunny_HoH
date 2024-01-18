@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/SunnyShadowIntro.unity
+    guid: b757d4eb023159947bdd495b455845a5
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: c7d89c2baee28c649940872a10eed390
+  - enabled: 1
+    path: Assets/Scenes/Day1.unity
+    guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/Day2.unity
+    guid: 82fa927559021d64aa1b677a5cdf803e
+  - enabled: 1
+    path: Assets/Scenes/Day3.unity
+    guid: 0e122f94982a2014a8ff4092cca11556
+  - enabled: 1
+    path: Assets/Scenes/OppositeApartment.unity
+    guid: c3feb13ffd7ee0244ac62517a1b017fa
+  - enabled: 1
+    path: Assets/Scenes/GameplayFootage.unity
+    guid: 1533074aae4aa44459cec9a5a6ffad6a
+  - enabled: 1
+    path: Assets/Scenes/CreditsScene.unity
+    guid: 9e4b95dac6f87444e8dd94f24413b479
+  m_configObjects: {}
